@@ -3,7 +3,7 @@
 Its a simple countdown timer library. You can create multiple instances of the timer with very less overhead on the CPU.
 
 Example: Countdown for 5 seconds.
-```
+```C#
   CountDownTimer timer = new CountDownTimer(new TimeSpan(0,0,0,5));
   timer.Start();
   //Do work for 3 seconds
